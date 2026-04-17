@@ -1,0 +1,40 @@
+.caixa {
+  max-width: 300px;
+  margin: 20px auto;
+  font-family: sans-serif;
+
+  input {
+    padding: 8px;
+    border: 1px solid #add8e6; 
+    border-radius: 4px;
+    outline: none;
+  }
+
+  .btnAdd {
+    background: #007bff; 
+    color: white;
+    border: none;
+    padding: 8px;
+    margin-left: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .item {
+    display: flex;
+    justify-content: space-between;
+    background: #e7f3ff; 
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    color: #004085;
+
+    button {
+      background: none;
+      border: none;
+      color: #007bff;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  }
+}
